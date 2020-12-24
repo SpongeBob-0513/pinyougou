@@ -1,0 +1,140 @@
+/* 列表页专有的css */
+.nav {
+  overflow: hidden;
+}
+.sk {
+  position: absolute;
+  left: 190px;
+  top: 40px;
+  padding: 3px 0 0 14px;
+  border-left: 1px solid #b1191a;
+}
+
+.sk_list {
+  float: left;
+}
+
+.sk_list ul li {
+  float: left;
+}
+
+.sk_list ul li a {
+  display: block;
+  line-height: 47px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+
+.sk_con {
+  float: left;
+}
+
+.sk_con ul li {
+  float: left;
+}
+
+.sk_con ul li a {
+  display: block;
+  line-height: 49px;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+  content: '\f107';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; 
+  padding-left: 3px;
+}
+
+.sk_bd {
+  margin-top: 24px;
+  width: 1220px;
+}
+
+.sk_bd ul li {
+  width: 289px;
+  height: 462px;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+  border: 1px solid #c81523;
+}
+
+.sk_bd .img {
+  text-align: center;
+}
+
+.sk_bd h5 {
+  height: 48px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sk_bd ul {
+  overflow: hidden;
+}
+
+.sk_bd ul li {
+  float: left;
+  margin-right: 15px;
+}
+
+.sk_bd ul li strong {
+  margin-right: 8px;
+  font-size: 22px;
+  color: #e60012;
+}
+
+.sk_bd ul li i {
+  font-size: 14px;
+}
+
+.progress_bar {
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  /* background-color: pink; */
+}
+
+.progress_bar .bar {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 134px;
+  height: 12px;
+  border-radius: 5px;
+  margin: -2px 10px 0;
+  border: 1px solid #ed282e;
+  /* background-color: skyblue; */
+}
+
+.bar_son {
+  height: 100%;
+  width: 87%;
+  background-color: #ed282e;
+}
+
+.sk_bd .box {
+  padding: 0 12px;
+}
+
+.line_through {
+  text-decoration: line-through;
+  font-weight: 700;
+  color: #a4a4a4;
+}
+
+.sk_bd .button {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #b1191a;
+}
