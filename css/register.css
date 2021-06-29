@@ -13,7 +13,7 @@ header {
 }
 
 .registerarea {
-  height: 522px;
+  height: 600px;
   border: 1px solid #ccc;
   margin-top: 20px;
 }
@@ -60,9 +60,11 @@ header {
 
 .error {
   color: #c81523;
+  margin-left: 10px;
 }
 
-.error_icon,.success_icon {
+.error_icon,
+.success_icon {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
@@ -72,7 +74,8 @@ header {
 }
 
 .success {
-  color: #c81523;
+  color: green;
+  margin-left: 10px;
 }
 
 .success_icon {
